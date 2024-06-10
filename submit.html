@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice 14.8</title>
+    <style>
+        input {
+           display: block;
+           margin-bottom: 1em;
+        }
+        label{
+            float: left;
+            padding-right: 1em;
+            text-align: right;
+        }
+        #submit {
+            margin-left: 7em;
+        }
+    </style>
+</head>
+<body>
+   <h1>JavaScript Form Handling</h1>
+   <form method="post"
+          action="http://webdevbasics.net/script/demo.php"
+          onsubmit="return validateForm();">
+   <label for="userName">Name: </label>
+   <input type="text" name="userName" id="userName">
+   <label for="userAge">Age: </label>     
+   <input type="text" name="userAge" id="userAge">
+   <input type="submit" name="Send Information" id="submit">
+   </form>
+   <button onclick="window.location.href='mouse1.html'">Next Page</button>
+
+   <script src="js.js"></script>
+</body>
+</html>

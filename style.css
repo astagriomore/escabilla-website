@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    text-decoration: none;
+}
+html {
+    font-size: 50%;
+    overflow-x: hidden;
+}
+body {
+    background-color: cyan;
+    overflow-x: hidden;
+}
+header {
+    padding: 15px;
+    left: auto;
+    right: auto;
+    position: flex;
+    background-color: rgb(37, 37, 156);
+    align-items: center;
+    position: inherit;
+    z-index: 4;
+
+}
+
+header .asta img{
+    margin: 0;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    border: 1px solid rgb(46, 221, 221);
+
+
+}
+
+header .aljhon {
+    font-size: 45px;
+    color: white;
+    display: inline;
+}
+ .side {
+    padding: 20px;
+    position: absolute;
+    width: 100px;
+    height: 1000px;
+    background-color: lightblue;
+    z-index: 2;
+    top: 99px;
+    left: 0;
+    padding-bottom: auto;
+  
+
+
+ }
+
+ .side ul{
+    list-style-type: none;
+
+
+ }
+ .side ul  li a{
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    
+    background-color: rgb(161, 105, 214);
+    color: aliceblue;
+    font-weight: 500;
+    border-radius: 5rem;
+    border-bottom: 1px solid lightcoral;
+    margin-bottom: 1rem;   
+ }
+
+ .side ul  li a:hover{
+    background-color: pink;
+ }
+
+ 
